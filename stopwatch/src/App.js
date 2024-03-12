@@ -1,13 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import Stopwatch from './component/Stopwatch';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-        
-      </header>
+      <h1>Stopwatch</h1>
+      <Stopwatch />
     </div>
   );
 }
