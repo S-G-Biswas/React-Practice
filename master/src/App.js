@@ -3,6 +3,8 @@ import Table from './components/DataTable';
 import Counter from './components/counter';
 import Todo from './components/todo';
 import FocusInput from './components/useRefInputFocus';
+import {Navbar} from  './Routes/Navbar';
+import { AllRoutes } from './Routes/AllRoutes';
 
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
       {/* <br></br> */}
       {/* <FocusInput /> */}
       {/* <Todo /> */}
-      <Table />
+      {/* <Table /> */}
+      <Navbar />
+      <AllRoutes/>
     </div>
   );
 }
