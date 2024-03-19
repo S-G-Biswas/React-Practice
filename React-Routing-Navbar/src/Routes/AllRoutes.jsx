@@ -8,7 +8,7 @@ import {
     Routes,
     Route,
   } from "react-router-dom";
-import Services from '../Pages/services';
+// import Services from '../Pages/services';
 
 const AllRoutes = () => {
     return (
@@ -19,7 +19,7 @@ const AllRoutes = () => {
                     <Route path="/about" element={<About />} />
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/products" element={<Products />} />
-                    <Route path="/services" element={<Services />} />
+                    {/* <Route path="/services" element={<Services />} /> */}
                 </Routes>
            </Router>
       </div>
