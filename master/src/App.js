@@ -5,7 +5,13 @@ import Navbar from './components/Navbar';
 import Counter from './components/counter';
 import Todo from './components/todo';
 import FocusInput from './components/useRefInputFocus';
+import CompA from './contextAPI/CompA';
 
+//ContextAPI
+import { createContext } from 'react';
+
+const Firstname = createContext();
+const Lastname = createContext();
 
 function App() {
   return (
@@ -16,9 +22,18 @@ function App() {
       {/* <Todo /> */}
       {/* <Table /> */}
       {/* <Navbar /> */}
-     <FormData />
+     {/* <FormData /> */}
+
+
+     <Firstname.Provider value={"Shyam"}>
+       <Lastname.Provider value={"Gopal"}>
+          <CompA />
+       </Lastname.Provider>  
+     </Firstname.Provider>
+     
     </div>
   );
 }
 
 export default App;
+export {Firstname, Lastname};
