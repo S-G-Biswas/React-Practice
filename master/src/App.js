@@ -24,7 +24,6 @@ function App() {
       {/* <Navbar /> */}
      {/* <FormData /> */}
 
-
      <Firstname.Provider value={"Shyam"}>
        <Lastname.Provider value={"Gopal"}>
           <CompA />
