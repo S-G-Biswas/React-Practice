@@ -1,3 +1,5 @@
+//Component 3
+
 import React from 'react';
 import { Firstname, Lastname } from '../App';
 

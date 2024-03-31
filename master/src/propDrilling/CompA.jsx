@@ -1,3 +1,5 @@
+//Component 1
+
 import React from 'react';
 import CompB from './CompB';
 
