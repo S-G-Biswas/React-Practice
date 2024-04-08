@@ -7,6 +7,7 @@ import Todo from './components/todo';
 import FocusInput from './components/useRefInputFocus';
 import CompA from './contextAPI/CompA';
 
+
 //Redux
 import { Provider } from "react-redux";
 import ReduxCounter from './Redux/Counter';
@@ -14,6 +15,7 @@ import store from './Redux/store';
 
 //ContextAPI
 import { createContext } from 'react';
+import Circle from './Dynamic_Circle/Circle';
 
 
 
@@ -30,22 +32,23 @@ function App() {
       {/* <Table /> */}
       {/* <Navbar /> */}
      {/* <FormData /> */}
+      <Circle />
 
       {/* Context API */}
       
-     <Firstname.Provider value={"Shyam"}>
+     {/* <Firstname.Provider value={"Shyam"}>
        <Lastname.Provider value={"Gopal"}>
           <CompA />
        </Lastname.Provider>  
-     </Firstname.Provider>
+     </Firstname.Provider> */}
 
      {/* Redux Counter */}
-     <Provider store={store}>
+     {/* <Provider store={store}>
       <div>
         <h1>Redux Counter App</h1>
         <ReduxCounter />
       </div>
-    </Provider>
+    </Provider> */}
      
     </div>
   );
