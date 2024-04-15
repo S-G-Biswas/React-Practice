@@ -16,6 +16,8 @@ import store from './Redux/store';
 //ContextAPI
 import { createContext } from 'react';
 import Circle from './Dynamic_Circle/Circle';
+import Dynamic from './DynamicDataChange/DynamicData';
+import Dropdown from './dropdown/dropdown';
 
 
 
@@ -32,8 +34,9 @@ function App() {
       {/* <Table /> */}
       {/* <Navbar /> */}
      {/* <FormData /> */}
-      <Circle />
-
+      {/* <Circle /> */}
+      {/* <Dynamic /> */}
+      {/* <Dropdown /> */}
       {/* Context API */}
       
      {/* <Firstname.Provider value={"Shyam"}>
